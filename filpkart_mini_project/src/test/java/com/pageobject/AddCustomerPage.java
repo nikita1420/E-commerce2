@@ -14,7 +14,7 @@ public AddCustomerPage(WebDriver rdriver)
 	PageFactory.initElements(rdriver, this);
 	
 }
-
+//this is change
 @FindBy(xpath="html/body/div[3]/div/ul/li[2]/a") WebElement addcstmer;
 @FindBy(xpath="//input[@name='name']") WebElement name;
 @FindBy(name="rad1") WebElement gender;
